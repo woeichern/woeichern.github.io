@@ -1,20 +1,5 @@
     const store = new Vuex.Store({
         state: {
-            introduction:{
-                content: `
-                            <div style="display:flex;">
-                                <span>
-                                Hi! I'm William, and I also am
-                                </span>
-                                <ul>
-                                    <li>a Web Developer</li>
-                                    <li>a LINE BOT Developer</li>
-                                    <li>a Photographer</li>
-                                </ul>
-                            </div>
-                            Welcome to my Github Page!
-                            `
-            },
             education:[
                 {
                     school: "National Tsing Hua University",

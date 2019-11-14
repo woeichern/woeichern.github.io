@@ -134,26 +134,52 @@
                     works:[
                         {
                             description: "Maintained official website and SEO.",
+                            detail:[
+                                "Maintained official website",
+                                "Monitor Google Analytics data and make suggestions to do SEO.",
+                                "Plan A/B test of official website UI to help making decision.",
+                                "Designed and set tracking code into web site to track some issues."                                
+                            ],
                             skills: ["PHP", "CodeIgniter", "JavaScript", "jQuery", "MySQL", "Google Analytic", "Google Tag Manager", "Google Optimize", "Google Search Console", "Git", "Gitea"]
                         },
                         {
                             description: "Maintained web-based treatment record system",
+                            detail:[
+                                "Maintained old treatment record system which is used to record clients' treatment record and handover.",
+                                "Developed new features in treatment record system by user interview and discussion."   
+                            ],
                             skills: ["PHP", "CodeIgniter", "JavaScript", "jQuery", "jQuery UI", "MySQL", "Git", "Gitea"]
                         },
                         {
                             description: "Developed new web-based treatment record system",
+                            detail:[
+                                "Developed new treatment record system as single page applications web site."
+                            ],
                             skills: ["PHP", "Laravel", "JavaScript", "BootstrapVue", "SCSS/SASS", "Vue.js", "Docker", "MariaDB", "Git", "Gitea"]
                         },
                         {
                             description: "Developed RESTFul APIs Service",
-                            skills: ["PHP", "Slim", "MySQL", "SQL Server", "Docker", "Git", "Gitea"]
+                            detail:[
+                                "Developed RESTFul APIs service, which is to exchange data among systems.",
+                                "Used PHP and Slim 3 as back-end, and deploy on docker.",
+                                "Use MongoDB as API service log storage."
+                            ],
+                            skills: ["PHP", "Slim", "MongoDB", "MySQL", "SQL Server", "Docker", "Git", "Gitea"]
                         },
                         {
                             description: "Developed Python Scripts",
+                            detail:[
+                                "Developed Python script to crawl web page from a system, and then save data into a database to be accessed by APIs service.",
+                                "Developed Python script to upload file to external API service and save response data at designated times."
+                            ],
                             skills: ["Python"]
                         },
                         {
                             description: "Managed outsourcing projects",
+                            detail:[
+                                "Interviewed staffs and integrated requirements, and writed specifications for outsourcing vendor.",
+                                "Coordinated between internal users and outsourcing vendors."
+                            ],
                             skills: ["Aglio API Blueprint"]
                         }
                     ]
@@ -167,10 +193,14 @@
                     works:[
                         {
                             description: "Designed MySQL API using C++.",
+                            detail:[                        
+                            ],
                             skills: ["JavaScript", "jQuery", "PHP", 'C++', "MySQL"]
                         },
                         {
                             description: "Designed web site",
+                            detail:[
+                            ],
                             skills: ["JavaScript", "jQuery", "jQuery UI", "PHP", "MySQL"]
                         }
                     ]

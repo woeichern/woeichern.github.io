@@ -124,7 +124,7 @@
                             </b-col>
                             <b-col offset="1" cols="9" sm="11" offset-sm="1">                                
                                 <b-collapse :id=" 'collapse-'+indexWorks " class="mt-2">
-                                    <ol>
+                                    <ol v-if=" itemWorks.detail.length > 0">
                                         <li v-for=" itemWorksDetail in itemWorks.detail">
                                         {{ itemWorksDetail }}
                                         </li>

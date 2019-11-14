@@ -123,6 +123,11 @@
                                 <b-button v-b-toggle="'collapse-'+indexWorks" variant="light">Skills</b-button>
                             </b-col>
                             <b-col offset="1" cols="9" sm="11" offset-sm="1">
+                                <ol>
+                                    <li v-for=" itemWorksDetail in item.detail">
+                                    {{ itemWorksDetail }}
+                                    </li>
+                                </ol>
                                 <b-collapse :id=" 'collapse-'+indexWorks " class="mt-2">
                                     <b-badge pill variant="light" style="margin: 3px;" v-for=" skill in itemWorks.skills">
                                         {{ skill }}

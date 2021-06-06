@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head> 
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" >
         <link rel=stylesheet type="text/css" href="css/bundle.css">
@@ -33,7 +33,7 @@
                                 <br/>
                                 <ul>
                                     <li>a Web Developer</li>
-                                    <li>a LINE BOT Developer</li>
+                                    <li>a LINE Bot Developer</li>
                                     <li>a Photographer</li>
                                 </ul>
                                 Welcome to my Github Page!
@@ -98,8 +98,8 @@
                             </b-col>
                             <b-col cols="4" sm="3">
                                 <span style="color: #AAAAAA; display:flex; flex-direction:column;">
-                                    <span>{{ item.durationFrom }}</span>                                    
-                                    <span>~</span>                                    
+                                    <span>{{ item.durationFrom }}</span>
+                                    <span>~</span>
                                     <span>{{ item.durationTo }}</span>
                                 </span>
                             </b-col>
@@ -122,7 +122,7 @@
                             <b-col offset="1" cols="1" offset-sm="0" sm="3">
                                 <b-button v-b-toggle="'collapse-'+indexWorks" variant="success" pill>Details</b-button>
                             </b-col>
-                            <b-col offset="1" cols="9" sm="11" offset-sm="1">                                
+                            <b-col offset="1" cols="9" sm="11" offset-sm="1">
                                 <b-collapse :id=" 'collapse-'+indexWorks " class="mt-2">
                                     <ol v-if=" itemWorks.detail.length > 0">
                                         <li v-for=" itemWorksDetail in itemWorks.detail">

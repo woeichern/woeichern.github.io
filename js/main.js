@@ -6,7 +6,7 @@
                     department: "Institute of Information System and Applications",
                     degree: "Master",
                     durationFrom: "2014-09",
-                    durationTo: "Now"
+                    durationTo: "2020-06"
                 },
                 {
                     school: "National Chenchi University",
@@ -29,17 +29,17 @@
                 },
                 {
                     category: "Front-End",
-                    title: "jQuery UI",
-                    variant: "primary"
-                },
-                {
-                    category: "Front-End",
                     title: "Vue.js",
                     variant: "primary"
                 },
                 {
                     category: "Front-End",
                     title: "Vuex",
+                    variant: "primary"
+                },
+                {
+                    category: "Front-End",
+                    title: "Nuxt.js",
                     variant: "primary"
                 },
                 {
@@ -52,7 +52,6 @@
                     title: "SASS/SCSS",
                     variant: "info"
                 },
-
                 {
                     category: "Back-End",
                     title: "PHP",
@@ -60,7 +59,7 @@
                 },
                 {
                     category: "Back-End",
-                    title: "CodeIgniter",
+                    title: "PHPUnit",
                     variant: "secondary"
                 },
                 {
@@ -70,7 +69,7 @@
                 },
                 {
                     category: "Back-End",
-                    title: "Slim",
+                    title: "CodeIgniter",
                     variant: "secondary"
                 },
                 {
@@ -80,57 +79,127 @@
                 },
                 {
                     category: "Back-End",
-                    title: "C#",
+                    title: "GraphQL",
                     variant: "secondary"
                 },
                 {
-                    category: "database",
+                    category: "Database",
                     title: "MySQL",
                     variant: "success"
                 },
                 {
-                    category: "database",
-                    title: "MariaDB",
+                    category: "Database",
+                    title: "Redis",
                     variant: "success"
                 },
                 {
-                    category: "database",
-                    title: "SQL Server",
-                    variant: "success"
-                },
-                {
-                    category: "database",
-                    title: "MongoDB",
-                    variant: "success"
-                },
-                {
-                    category: "CI/CD",
+                    category: "DevOps",
                     title: "Docker",
                     variant: "dark"
                 },
                 {
-                    category: "CI/CD",
-                    title: "Jenkins",
+                    category: "DevOps",
+                    title: "Azure",
                     variant: "dark"
                 },
                 {
-                    category: "Others",
+                    category: "DevOps",
+                    title: "Kubernetes",
+                    variant: "dark"
+                },
+                {
+                    category: "SVN",
                     title: "Git",
                     variant: "danger"
                 },
                 {
+                    category: "Agile",
+                    title: "Scrum",
+                    variant: "warning"
+                },
+                {
                     category: "Others",
-                    title: "Gitea",
-                    variant: "danger"
-                }
+                    title: "Unit Testing",
+                    variant: "secondary"
+                },
+                {
+                    category: "Others",
+                    title: "ElasticSearch",
+                    variant: "secondary"
+                },
+                {
+                    category: "Others",
+                    title: "Kibana",
+                    variant: "secondary"
+                },
             ],
             jobs:[
+                {
+                    company: "CommonWealth Magazine Group",
+                    department: "IT Department",
+                    position: "Senior Engineer",
+                    durationFrom: "2020-01",
+                    durationTo: "Now",
+                    works:[
+                        {
+                            description: "Developed new online learning website.",
+                            detail:[
+                                "Developed API system for front-end site.",
+                                "Developed front-end site.",
+                                "Assisted team in introducing separation of front-end and backend.",
+                                "Optimized performance of website.",
+                                "Set up marketing tracking codes.",
+                                "Set up GTM tracking codes.",
+                            ],
+                            skills: ["Nuxt.js", "Vue.js", "Laravel"]
+                        },
+                        {
+                            description: "Maintained online learning websites.",
+                            detail:[
+                                "Developed new features according to requirements.",
+                                "Concatenated with order middle platform.",
+                                "Concatenated with payment middle platform.",
+                                "Optimized performance of website.",
+                                "Set up marketing tracking codes.",
+                                "Set up GTM tracking codes.",
+                            ],
+                            skills: ["Laravel", "Vue.js"]
+                        },
+                        {
+                            description: "Maintained content websites.",
+                            detail:[
+                                "Developed new features according to requirements.",
+                                "Concatenated with order middle platform.",
+                                "Optimized performance of website.",
+                            ],
+                            skills: ["Laravel", "Vue.js"]
+                        },
+                        {
+                            description: "Developed and maintained order middle platform.",
+                            detail:[
+                                "Concatenated with digital products.",
+                                "Concatenated with 91 API system.",
+                                "Concatenated with ERP system.",
+                            ],
+                            skills: ["Laravel", "GraphQL"]
+                        },
+                        {
+                            description: "Developed and maintained payment middle platform.",
+                            detail:[
+                                "Concatenated with digital products.",
+                                "Concatenated with banks' payment API.",
+                                "Concatenated with outside third-payment providers",
+                            ],
+                            skills: ["Laravel", ]
+                        }
+                    ]
+                },
                 {
                     company: "iCryobank",
                     department: "IT Department",
                     position: "Web Developer",
                     durationFrom: "2016-08",
-                    durationTo: "Now",
+                    durationTo: "2020-01",
                     works:[
                         {
                             description: "Maintained official website and SEO.",
@@ -138,33 +207,33 @@
                                 "Maintained official website",
                                 "Monitor Google Analytics data and make suggestions to do SEO.",
                                 "Plan A/B test of official website UI to help making decision.",
-                                "Designed and set tracking code into web site to track some issues."                                
+                                "Designed and set tracking code into web site to track some issues."
                             ],
-                            skills: ["PHP", "CodeIgniter", "JavaScript", "jQuery", "MySQL", "Google Analytic", "Google Tag Manager", "Google Optimize", "Google Search Console", "Git", "Gitea"]
+                            skills: ["CodeIgniter", "jQuery", "MySQL", "Google Analytic", "Google Tag Manager", "Google Optimize", "Google Search Console", "Git", "Gitea"]
                         },
                         {
                             description: "Maintained web-based treatment record system",
                             detail:[
                                 "Maintained old treatment record system which is used to record clients' treatment record and handover.",
-                                "Developed new features in treatment record system by user interview and discussion."   
+                                "Developed new features in treatment record system by user interview and discussion."
                             ],
-                            skills: ["PHP", "CodeIgniter", "JavaScript", "jQuery", "jQuery UI", "MySQL", "Git", "Gitea"]
+                            skills: ["CodeIgniter", "jQuery", "jQuery UI", "MySQL", "Git", "Gitea"]
                         },
                         {
                             description: "Developed new web-based treatment record system",
                             detail:[
                                 "Developed new treatment record system as single page applications web site."
                             ],
-                            skills: ["PHP", "Laravel", "JavaScript", "BootstrapVue", "SCSS/SASS", "Vue.js", "Docker", "MariaDB", "Git", "Gitea"]
+                            skills: ["Laravel", "BootstrapVue", "SCSS/SASS", "Vue.js", "Docker", "MariaDB", "Git", "Gitea"]
                         },
                         {
                             description: "Developed RESTFul APIs Service",
                             detail:[
                                 "Developed RESTFul APIs service, which is to exchange data among systems.",
                                 "Used PHP and Slim 3 as back-end, and deploy on docker.",
-                                "Use MongoDB as API service log storage."
+                                "Used MongoDB as API service log storage."
                             ],
-                            skills: ["PHP", "Slim", "MongoDB", "MySQL", "SQL Server", "Docker", "Git", "Gitea"]
+                            skills: ["Slim", "MongoDB", "MySQL", "SQL Server", "Docker", "Git", "Gitea"]
                         },
                         {
                             description: "Developed Python Scripts",
@@ -193,7 +262,7 @@
                     works:[
                         {
                             description: "Designed MySQL API using C++.",
-                            detail:[                        
+                            detail:[
                             ],
                             skills: ["JavaScript", "jQuery", "PHP", 'C++', "MySQL"]
                         },
@@ -214,16 +283,16 @@
                     link: "http://nav.cx/ohiZuj9"
                 },
                 {
+                    name: "WReversi",
+                    description: "A reversi game bot.",
+                    githubURL: "https://github.com/woeichern/WReversi",
+                    link: "https://page.line.me/296lvqak"
+                },
+                {
                     name: "WLook",
                     description: "A Line Bot application that user can random pick-up a look photos list from Dappei, DropTokyo and WearJP.",
                     githubURL: "https://github.com/woeichern/WLook",
                     link: "http://nav.cx/swqs0KQ"
-                },
-                {
-                    name: "WSecondMovier",
-                    description: "A Line Bot application that user can query second-run theaters and movies information.",
-                    githubURL: "https://github.com/woeichern/WSecondMovier",
-                    link: "http://nav.cx/ohiZuj9"
                 },
                 {
                     name: "WTyphoon",
@@ -240,44 +309,24 @@
             ]
         },
         getters:{
-
             skillCategory: data =>{
-
                 let categoryList = [];
 
-                for(let i in data.skills){
-
-                    let category = data.skills[i].category;
+                data.skills.forEach((skill) => {
+                    let category = skill.category;
 
                     if(categoryList.indexOf(category) < 0) {
-
                         categoryList.push(category);
-
                     }
-
-                }
+                });
 
                 return categoryList;
 
             },
             skillList: (data) => (categoryInput) => {
-
-                let skillList = [];
-
-                for(let i in data.skills){
-
-                    let category = data.skills[i].category;
-
-                    if(category === categoryInput) {
-
-                        skillList.push(data.skills[i]);
-
-                    }
-
-                }
-
-                return skillList;
-
+                return data.skills.filter((skill) => {
+                    return skill.category === categoryInput;
+                });
             }
         },
         mutations: {

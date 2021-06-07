@@ -169,7 +169,6 @@
                             description: "Maintained content websites.",
                             detail:[
                                 "Developed new features according to requirements.",
-                                "Concatenated with order middle platform.",
                                 "Optimized performance of website.",
                             ],
                             skills: ["Laravel", "Vue.js"]
